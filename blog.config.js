@@ -1,10 +1,10 @@
 const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  title: 'BooJun',
+  author: '空米店',
+  email: 'i@boojun.com',
+  link: 'https://biog.boojun.com',
+  newsletter: 'BooJun Weekly',
+  description: 'BooJun',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -12,7 +12,7 @@ const BLOG = {
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2024, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
@@ -34,7 +34,7 @@ const BLOG = {
     telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['Design', 'BooJun', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
@@ -67,10 +67,10 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'supacomments', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: '', // The url of your Supabase instance
-      supabaseAnonKey: '' // The anonymous key of your Supabase instance
+      supabaseUrl: 'https://ccjgtghzngtsrisnxihq.supabase.co', // The url of your Supabase instance
+      supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNjamd0Z2h6bmd0c3Jpc254aWhxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTEyMDM4OTIsImV4cCI6MjAyNjc3OTg5Mn0.hejfcclgas9CEpQ1k1pj3oIyTCZN7AE07rOeHpm68pk' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
       repo: ''
