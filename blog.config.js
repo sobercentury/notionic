@@ -31,7 +31,7 @@ const BLOG = {
   socialLink: {
     twitter: 'https://twitter.com/',
     github: 'https://github.com/',
-    telegram: 'https://t.me/'
+    telegram: 'https://t.me/boojunbot'
   },
   seo: {
     keywords: ['Design', 'BooJun', 'Blog'],
